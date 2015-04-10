@@ -9,6 +9,10 @@
   #gradient > .horizontal(@brand-primary-1; @brand-primary-2);
 }
 
+.sel-selected {
+  background-color: #000000;
+}
+
 .main-menu {
   .main-gradient;
   height: @main-menu-height;
@@ -46,7 +50,7 @@
     }
 
     &.sel:hover {
-      background-color: #000000;
+      .sel-selected;
     }
   }
 }
